@@ -33,39 +33,49 @@ function game(userChoice) {
 	}
 
 	switch(userChoice + compChoice) {
+		
 		case "cb":
+			y_score ++;
+			updateScores();
+			updateMessage("Charmander burns Bulbasaur. You Win!");
+			break;
 		case "bs":
+			y_score ++;
+			updateScores();
+			updateMessage("Bulbasaur whips Squirtle. You Win!");
+			break;
 		case "sc":
 			y_score ++;
 			updateScores();
-			case "cb":
-				updateMessage("Charmander burns Bulbasaur. You Win!");
-			case "bs":
-				updateMessage("Bulbasaur whips Squirtle. You Win!");
-			case "sc":
-				updateMessage("Squirtle dampens Charmander. You Win!");
+			updateMessage("Squirtle dampens Charmander. You Win!");
 			break;
+
+		
 		case "bc":
+			c_score ++;
+			updateScores();
+			updateMessage("Bulbasaur is scorched by Charmander. You lose...");
+			break;
 		case "sb":
+			c_score ++;
+			updateScores();
+			updateMessage("Squirtle is drained by Bulbasaur. You lose...");
+			break;
 		case "cs":
 			c_score ++;
 			updateScores();
-			case "bc":
-				updateMessage("Bulbasaur is scorched by Charmander. You lose...");
-			case "sb":
-				updateMessage("Squirtle is drained by Bulbasaur. You lose...");
-			case "cs":
-				updateMessage("Charmander is drenched by Squirtle. You lose...");
+			updateMessage("Charmander is drenched by Squirtle. You lose...");
 			break;
+			
+
 		case "bb":
+			updateMessage("You both picked Bulbasaur! It's a Draw!");
+			break;
 		case "ss":
+			updateMessage("You both picked Squirtle! It's a Draw!");
+			break;
 		case "cc":
-			case "bb":
-				updateMessage("You both picked Bulbasaur! It's a Draw!");
-			case "ss":
-				updateMessage("You both picked Squirtle! It's a Draw!");
-			case "cc":
-				updateMessage("You both picked Charmander! It's a Draw!");
+			updateMessage("You both picked Charmander! It's a Draw!");
 			break;
 	}
 
