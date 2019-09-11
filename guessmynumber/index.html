@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<link rel='stylesheet' type="text/css" href="style.css">
+		<title>Guess My Number!</title>
+	</head>
+
+	<body>
+		<div class="bg">
+				<div class="header">
+					<h1>Guess My Number!</h1>
+				</div>
+
+			<h2 class="initial">Think of a number between 1 and 100.</h2>
+
+				<form class="form" id="form">
+					<input class="textview" name="textview" value="Is it higher than 50?">
+				</form>
+
+			<div class="buttonsss">
+				<table class="buttons">
+					<tr>
+						<input class="button" type="button" value="Higher" onclick="calculate(true)">
+						<input class="button" type="button" value="Lower" onclick="calculate(false)">
+						<input class="button" type="button" value="That's My Number!" onclick="celebrate()">
+					</tr>
+			</table>
+			</div>
+
+
+			<form class="answer" id="answer">
+					<input class="textviews" name="textviews" value="">
+				</form>
+		</div>
+		<script src="app.js" defer></script>
+	</body>
+</html>

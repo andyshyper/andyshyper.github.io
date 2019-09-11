@@ -1,0 +1,98 @@
+* {
+	font-family: Asap, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+.bg {
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(to right, #FFF587, #FFF26D);
+}
+
+
+.header {
+	top: 10%;
+	padding: 10px;
+	background: #0000000D;
+	text-align: center;
+}
+
+.initial {
+	top: 5%;
+	padding: 5px;
+	text-align: center;
+}
+
+.guess {
+	top: 15%;
+	padding-top: 15px;
+	padding: 5px;
+	text-align: center;
+}
+
+.buttonsss {
+	padding: 25px;
+	text-align: center;
+}
+
+tr {
+	padding: 2%;
+}
+
+.button {
+	padding: 15px;
+	width: 15%;
+
+	height: 45px;
+	text-align: center;
+	margin: 0px;
+
+	cursor: pointer;
+	background: white;
+	border: 2px solid #0000001A;
+	border-radius: 3px;
+}
+
+.form {
+	background: transparent;
+	text-align: center;
+	color: #0000000D;
+}
+
+.textview {
+	background: #0000000D;
+	border: none;
+}
+
+.textview {
+	width: 300px;
+	height: 30px;
+	margin: 2px;
+	margin-bottom: 10px;
+	padding: 5px;
+	background: #0000001A;
+	border: 2px solid #0000000D;
+	text-align: center;
+	font-size: 15px;
+}
+
+.answer {
+	text-align: center;
+}
+
+.textviews {
+	width: 90%;
+
+	font-size: 100px;
+	margin: 2px;
+	margin-bottom: 10px;
+	padding: 5px;
+	background: #0000000D;
+	border: 2px solid #0000000D;
+	text-align: center;
+}
